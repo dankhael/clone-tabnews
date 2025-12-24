@@ -1,5 +1,11 @@
+import lainGif from './lain.gif'
 function Home() {
-    return <h1>Pisca a xereca quando vê o parafal!</h1>
+    return (
+    <div>
+        <img src={lainGif.src} alt="Computer girl" style={{ width: 480, height: 480 }}/>
+    </div>
+)
+          
 }
 
 export default Home;
